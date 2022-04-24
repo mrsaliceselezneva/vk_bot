@@ -101,7 +101,7 @@ def main():
 
     for event in longpoll.listen():
         if event.type == VkEventType.MESSAGE_NEW:
-            if event.to_me:
+            if event.message == "Старт":
                 id = event.user_id
                 start(id, upload)
 
