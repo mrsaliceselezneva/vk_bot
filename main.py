@@ -6,7 +6,7 @@ from vk_api.keyboard import VkKeyboard, VkKeyboardColor
 
 from random import randint
 
-token = "ec882d06850e9776ab2c7d580be2d5216d304b9aa2321bd2f36a5cb2d3d619090611918746fffe481f96c"
+token = ""
 vk_session = vk_api.VkApi(token=token)
 
 
